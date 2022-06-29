@@ -1,0 +1,37 @@
+/* Limita la cantidad de líneas de un párrafo. */
+.paragraph {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; /* Líneas máximas permitidas */
+    overflow: hidden;
+}
+
+/* Scroll suave. */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Quita recuadro azul en mobile. */
+body {
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Reflejo efecto agua a una imagen. */
+img {
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0), rgb(0,0,0))
+}
+
+/* Grid responsivo. */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+}
+
+/* Evitar desbordamiento del contenido en css grid. */
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(0, auto) minmax(0, auto) minmax(0, auto);
+    grid-template-rows: minmax(0, auto);
+}

@@ -1,0 +1,28 @@
+@mixin display-flex($align-items: center, $justify-content: center, $flex-direction: row) {
+  display: flex;
+  align-items: $align-items;
+  justify-content: $justify-content;
+  flex-direction: $flex-direction;
+}
+
+@mixin position-top-left($position: absolute, $top: 0, $left: 0) {
+  position: $position;
+  top: $top;
+  left: $left;
+}
+
+@mixin position-top-right($position: absolute, $top: 0, $right: 0) {
+  position: $position;
+  top: $top;
+  right: $right;
+}
+
+@mixin width-and-height($width: 100%, $height: 100%) {
+  width: $width;
+  height: $height;
+}
+
+@mixin img-format {
+  @include width-and-height();
+  object-fit: cover;
+}
