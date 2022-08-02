@@ -1,3 +1,5 @@
+<!-- Cada <section> de acá abajo contiene dentro suyo un tema de HTML. Cumplen función de separar los temas. -->
+
 <section id="Abrir aplicaciones del teléfono con HTML">
     <!-- Esto abre la app de correo electrónico. -->
     <a href="mailto:agustin1999@hotmail.com?subject=Acá va el asunto inicial&body=Mensaje inicial .....">
@@ -17,4 +19,20 @@
 
 <section id="Evitar que puedan pegar contenido en un input">
     <input type="text" onpaste="return false" />
+</section>
+
+<section id="Crear autocomplete solo con HTML">
+
+    <label>
+        Elige el mejor framework:
+        <input list="frameworks" />
+    </label>
+    
+    <datalist id="frameworks">
+        <option value="react">React</option>
+        <option value="angular">Angular</option>
+        <option value="vue">Vue</option>
+        <option value="svelte">Svelte</option>
+    </datalist>
+    
 </section>

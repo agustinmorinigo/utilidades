@@ -1,4 +1,4 @@
-## ILUSTRACIONES / IMÁGENES / ÍCONOS / SVG / SPINNER / CSS / JS:
+## Ilustraciones, imagenes, íconos, svg, spinners, css, js:
     https://www.flaticon.es/
     https://boxicons.com/
     https://fontawesome.com/
@@ -74,6 +74,9 @@
     Una app utilizando la api del covid 19.
     Una app utilizando la api de Clash Royale si se puede.
     Una app utilizando la api de rest countries.
+    https://chriscourses.com/courses
+    https://scrimba.com/learn/weeklychallenge
+    https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps
 
 
 ## Íconos:
