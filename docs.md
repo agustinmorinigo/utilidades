@@ -44,6 +44,7 @@
     Optimizado de render con Hooks: https://www.youtube.com/watch?v=YP2f-ErXG_M&list=PLC3y8-rFHvwg7czgqpQIBEAHn8D6l530t ( canal codevolution )
     https://www.freecodecamp.org/news/the-react-cheatsheet/
     https://devtrium.com/posts/how-use-react-context-pro#separate-state-and-state-setters-if-necessary
+    https://www.youtube.com/watch?v=yo2bMGnIKE8 // Deploy
 
 
 ## GIT:
