@@ -45,6 +45,7 @@
     https://www.freecodecamp.org/news/the-react-cheatsheet/
     https://devtrium.com/posts/how-use-react-context-pro#separate-state-and-state-setters-if-necessary
     https://www.youtube.com/watch?v=yo2bMGnIKE8 // Deploy
+    https://react-bootstrap.github.io/components/alerts/
 
 
 ## GIT:
