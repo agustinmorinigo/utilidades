@@ -59,6 +59,7 @@
     https://www.purocodigo.net/articulo/recomendaciones-de-seguridad-para-aplicaciones-front-end#:~:text=Utilice%20una%20pol%C3%ADtica%20de%20seguridad,navegador%20o%20genere%20m%C3%A1s%20recursos.
     https://graphql.org/
     https://github.com/mrcodedev/frontend-developer-resources
+    https://ogp.me/
 
 
 ## npm:
