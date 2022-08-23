@@ -64,6 +64,7 @@
 ## Open Graph:
     https://ogp.me/
     https://desarrolloweb.com/articulos/tags-open-graph-facebook.html
+    https://developers.facebook.com/tools/debug/
 
 
 ## npm:
