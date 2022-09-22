@@ -180,3 +180,15 @@ const handleInputChange = () => {
 }
  
 input.addEventListener( 'input', () => debounce(handleInputChange, 500), false );
+
+
+// Recibe un string y retorna solamente los NÚMEROS de ese string. Ejemplo: getNumbersOf( '  $ 5.123.033,00  ' ) retorna '512303300';
+const getNumbersOf = text => {
+
+    if( typeof text !== 'string' ) {
+        throw new Error( 'Solo se permite string.' );
+    }
+
+    return text.replace( /[^0-9]/gi, '' );
+
+}
