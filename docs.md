@@ -71,3 +71,6 @@
     https://www.npmjs.com/package/concurrently
 
 
+## Expresiones regulares:
+    https://www.wake-up-neo.net/es/javascript/eliminar-todos-los-caracteres-especiales-excepto-el-espacio-de-una-cadena-usando-javascript/972189374/
+    https://www.regular-expressions.info/lookaround.html
