@@ -22,6 +22,7 @@
     https://loading.io/css/
     https://cssmatic.com/
     https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections
+    https://www.svgrepo.com/
 
     https://animate.style/		                         // animaciones css.
     https://sweetalert2.github.io/	                     // ventanas.
