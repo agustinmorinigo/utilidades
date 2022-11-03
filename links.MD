@@ -30,6 +30,8 @@
     https://sachinchoolur.github.io/lightGallery/	     // slider.
     https://swiperjs.com/			                     // slider.
     https://stylelint.io/                                // ordenar alfabéticamente código css.
+    
+    https://wweb.dev/resources/css-separator-generator/
 
 
 ## Animaciones en JS:
