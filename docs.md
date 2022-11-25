@@ -80,3 +80,16 @@
 ## Páginas para practicar lógica:
     https://www.codewars.com/
     https://www.hackerrank.com/
+    
+
+## Otros:
+    Para evitar que Settings Sync haga un backup de TODO, hay que entrar entrar a las configuraciones del Settings Sync ( el archivo se llama syncLocalSettings.json ),
+    y en el array de "ignoreUploadFolders" hay que agregar lo siguiente:
+    
+    "ignoreUploadFolders": [
+        "workspaceStorage",
+        "History",
+        "globalStorage"
+    ],
+    
+    Con esto nos aseguramos de que solo agregue al gists las extensiones, configuraciones y atajos de teclado.
