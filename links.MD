@@ -80,6 +80,8 @@
     https://chriscourses.com/courses
     https://scrimba.com/learn/weeklychallenge
     https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps
+    Una app de React + MapBox para saber qué eventos hay en capital, Zona sur, etc. según ubicación o dirección que escriba el usuario.
+    Una app de React para calcular calorías de alimentos, llevar una idea de lo que vengo consumiendo en el día, cuántas calorías puedo consumir según lo que quiero hacer, cuánto de agua, etc.
 
 
 ## Íconos:
