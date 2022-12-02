@@ -7,6 +7,23 @@ const removeAccents = ( text ) => {
 }
 
 
+// Propósito:   Quitar del string dado por 'text', las palabras dadas en 'args'.
+// Parámetros:  'text': un String.
+//              'args': un Array de String, pero los parámetros son strings.
+// Resultado:   Un String.
+// Ejemplo:     replaceWithRegex( 'Hola mundo', 'Ho', 'la', 'm', 'un' )  ->  'do'.
+const replaceWithRegex = ( text, ...args ) => {
+  
+  if( !text ) throw new Error( 'Must provide the text to evaluate.' );
+  if( !args || args?.length === 0 ) throw new Error( 'Must provide at least one word to replace.' );
+
+  const words = args.join( '|' );
+  const regex = new RegExp( `${ words }`, 'gi' );
+  return text.replace( regex, '' ).trim();
+  
+};
+
+
 // Propósito:     agrega puntos al número dado por 'number'.
 // Parámetros:    'number': un String o Number.
 // Resultado:     un String.
